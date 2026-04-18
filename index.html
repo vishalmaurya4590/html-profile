@@ -1,42 +1,59 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
- <!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
-
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
- </head>
- <body>
-   <h1>Welcome to Vishal Maurya's profile</h1>
-   <h2>I am a wed developer</h2>
-   
-   <hr>
-   <h3></h3><a href="./public/movie-ranking.html">Movie Ranking website</a></h3>
-   <img src="./assets/images/movie-recomended.png" alt="movie-ranking website image" height="200px">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left nav-bar"><a href="">Vishal Maurya</a></div>
+            <div class="right nav-bar">
+                <ul>
+                    <li class="home"><a href="/">Home</a></li>
+                    <li class="about"><a href="#about">About</a></li>
+                    <li class="project"><a href="#projects">Projects</a></li>
+                    <li class="contact"><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-   <h3></h3><a href="./public/birthday-invite.html">birthday-invite website</a></h3>
-   <img src="./assets/images/Brithday.png" alt="birthday-invite website image" height="200px">
-   <hr>
+    <main>
+        <section id="about">
+            <div class="left-main">
+                <p>Hello everyone! <br>I am Vishal Maurya and<br>I am a full stack web devloper.</p>
+            </div>
+            <div class="right-main">
+                <img src="https://img.freepik.com/premium-vector/technology-background_1302-15113.jpg?semt=ais_incoming&w=740&q=80" alt="">
+            </div>
+        </section>
+        <section id="projects">
+            <div class="first-background background">
+                <div class="first-Project project"><img src="https://m.media-amazon.com/images/I/617NsVfHJ4L._AC_UF1000,1000_QL80_.jpg" alt="zeroKataGameImage"></div>
+            </div>
+            <div class="second-background background">
+                <div class="second-Project project"><img src="https://user-images.githubusercontent.com/103934900/192238157-4990c9d4-c402-4bfa-ba9c-937f86a595cc.jpg" alt=""></div>
+            </div>
+        </section>
+    </main>
 
-   <a href="./public/about.html">About me</a>
-   <a href="./public/contact.html">Contact me</a>
+    <footer id="contact">
+            <div class="socail-media">
+                <ul>
+                    <li><a href="https://github.com/vishalmaurya4590"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/vishal-maurya-9b1348321/"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://x.com/Vishalmaurya90"><i class="fab fa-x-twitter""></i></a></li>
+                </ul>
+            </div>
+    </footer>
+    <script src="index.js"></script>
 
- </body>
- </html>
-
+</body>
+</html>

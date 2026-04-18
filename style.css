@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(11, 11, 167);
+    font-family: poppins ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/* Navigation-Section */
+nav{
+    display: flex; 
+    background-color: rgb(64, 64, 201);
+    height: 75px;
+    width: 100%;
+}
+
+nav .nav-bar{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .left{
+    font-size: 1.5em;
+}
+
+nav .left a{
+    color: #ffda00;
+    text-decoration: none;  
+}
+
+nav .left:hover{
+    color: #00acee;
+    transform: scale(1.1);
+}
+
+nav .right ul{
+    color: #ffda00;
+    display: flex;
+    gap: 50px;
+}
+
+nav .right ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+nav .right ul li a{
+    text-decoration: none;  
+    color: #ffda00;
+}
+
+nav .right ul li:hover{
+    transform: scale(1.1);
+    color: #00acee;
+}
+
+/* About-Section */
+#about{
+    display: flex;
+}
+
+main .left-main{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    color: #ffda00;
+    width: 62%;
+    font-size: 4em;
+    text-align: center;
+
+}
+
+main .right-main{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    color: #ffda00;
+    width: 50%;
+    font-size: 4em;
+    text-align: center;
+}
+
+main .right-main img{
+        border-radius: 10%;
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+/* Project-Section */
+#projects{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#projects div{
+    height: 400px;
+    width: 40%;
+    margin: 50px;
+}
+
+#projects .background{
+    background-color: rgb(17, 17, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+#projects .background div {
+    height: 320px;
+    width: 80%;
+}
+
+#projects .background div img{
+    height: 320px;
+    width: 97%;
+     border-radius: 20%;
+}
+
+#projects .background div img:hover{
+    transform: scale(1.1);
+}
+
+/* Footer-Section */
+footer{
+    background-color: rgb(64, 64, 201);
+    height: 70;
+    bottom: 0;
+}
+
+footer .socail-media ul {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+footer .socail-media ul li{
+    list-style: none;
+}
+
+footer .socail-media ul li a {
+  color: #ffda00;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .socail-media ul li a:hover {
+    color: #00acee;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 982px) {
+
+    /* Navigation-Section */
+ nav{
+    display: block; 
+    background-color: rgb(64, 64, 201);
+    height: 75px;
+}
+
+nav .nav-bar{
+    flex: 1;
+    display: grid;
+    place-items: center;
+}
+
+nav .left{
+    font-size: 1.5em;
+}
+
+nav .left a{
+    color: #ffda00;
+    text-decoration: none;  
+}
+
+nav .left:hover{
+    color: #00acee;
+    transform: scale(1.1);
+}
+
+nav .right ul{
+    color: #ffda00;
+    display: flex;
+    flex: 4;
+}
+
+nav .right ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+nav .right ul li a{
+    text-decoration: none;  
+    color: #ffda00;
+}
+
+nav .right ul li:hover{
+    transform: scale(1.1);
+    color: #00acee;
+}
+
+/* About-Section */
+#about{
+    display: block;
+}
+
+main .left-main{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    color: #ffda00;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+
+}
+
+main .right-main{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    color: #ffda00;
+    width: 50%;
+    font-size: 4em;
+    text-align: center;
+}
+
+main .right-main img{
+        border-radius: 10%;
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+/* Project-Section */
+#projects{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#projects div{
+    height: 400px;
+    width: 40%;
+    margin: 50px;
+}
+
+#projects .background{
+    background-color: rgb(17, 17, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+#projects .background div {
+    height: 320px;
+    width: 80%;
+}
+
+#projects .background div img{
+    height: 320px;
+    width: 97%;
+     border-radius: 20%;
+}
+
+#projects .background div img:hover{
+    transform: scale(1.1);
+}
+
+/* Footer-Section */
+footer{
+    background-color: rgb(64, 64, 201);
+    height: 70;
+    bottom: 0;
+}
+
+footer .socail-media ul {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+footer .socail-media ul li{
+    list-style: none;
+}
+
+footer .socail-media ul li a {
+  color: #ffda00;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .socail-media ul li a:hover {
+    color: #00acee;
+}
+
+
+html {
+  scroll-behavior: smooth;
+} 
+}
